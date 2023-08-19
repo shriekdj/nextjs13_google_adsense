@@ -1,6 +1,6 @@
 # nextjs13_google_adsense
 
-This Package reloads on Every Page change.
+This Package Helps reload ad on Every Page change.
 
 Before using this package add this code in `head` of your root layout file.
 
