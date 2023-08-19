@@ -6,7 +6,7 @@
   ],
   "compilerOptions": {
     "module": "esnext",
-    "types": ["node"],
+    "types": ["node", "jest", "mocha"],
     "lib": ["dom", "esnext"],
     "importHelpers": true,
     "declaration": true,
