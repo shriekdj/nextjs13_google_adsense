@@ -1,0 +1,1 @@
+# nextjs13_google_adsense
