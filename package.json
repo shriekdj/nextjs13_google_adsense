@@ -20,7 +20,7 @@
     "prepublishOnly": "npm test && npm run prettier && npm run lint"
   },
   "peerDependencies": {
-    "next": ">=13.4.19",
+    "next": ">=13.4.6",
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0"
   },
@@ -30,7 +30,12 @@
     "README.md"
   ],
   "keywords": [
-    "nextjs","nextjs13","google adsense","react","nextjs 13 google adsense","shriekdj"
+    "nextjs",
+    "nextjs13",
+    "google adsense",
+    "react",
+    "nextjs 13 google adsense",
+    "shriekdj"
   ],
   "author": "Shrikant Dhayaje <shrikantdhayaje@gmail.com>",
   "license": "MIT",
@@ -38,6 +43,7 @@
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.3",
+    "@types/mocha": "^10.0.1",
     "@types/node": "^20.5.1",
     "@types/react": "18.2.20",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
@@ -50,7 +56,7 @@
     "jest": "^29.6.2",
     "jest-canvas-mock": "^2.5.2",
     "jest-environment-jsdom": "^29.6.2",
-    "next": ">=13.4.19",
+    "next": "^13.4.6",
     "prettier": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
