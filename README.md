@@ -42,8 +42,7 @@ export default function MyPage() {
           data-full-width-responsive="true"
         ></ins>
   </GoogleAdUnit>
-  <div>Test Content
+  <div>Test Content</div>
   <>;
 }
 ```
-
