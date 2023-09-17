@@ -2,7 +2,7 @@
 import React from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-type Props = {
+type GoogleAdUnitProps = {
   children: React.ReactNode;
 };
 
@@ -12,13 +12,13 @@ declare global {
   }
 }
 
-const GoogleAdUnit = ({ children }: Props): React.JSX.Element => {
+const GoogleAdUnit: React.FC<GoogleAdUnitProps> = ({ children }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   React.useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, [pathname, searchParams]);
-  return <>{children}</>;
+  return <React.Fragment>{children}</React.Fragment>;
 };
 
 export default GoogleAdUnit;
