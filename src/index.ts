@@ -1,3 +1,3 @@
 import GoogleAdUnit from './GoogleAdUnit';
 
-export { GoogleAdUnit };
+export default GoogleAdUnit;
