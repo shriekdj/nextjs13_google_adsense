@@ -1,6 +1,6 @@
 {
   "name": "nextjs13_google_adsense",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Adsense package for working into the nextjs 13 and above.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -16,8 +16,8 @@
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "test": "jest --config jestconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run prettier && npm run lint"
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test && yarn prettier && yarn lint"
   },
   "peerDependencies": {
     "next": ">=13.4.6",
