@@ -46,3 +46,6 @@ export default function MyPage() {
   <>;
 }
 ```
+
+**If any errors occured then errors will be displayed on client or your browser's console.**
+
