@@ -1,6 +1,6 @@
 {
   "name": "nextjs13_google_adsense",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Google Adsense package for working into the nextjs 13 and above.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -42,7 +42,7 @@
   "private": false,
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
-    "@types/jest": "^29.5.3",
+    "@types/jest": "^29.5.5",
     "@types/mocha": "^10.0.1",
     "@types/node": "^20.5.1",
     "@types/react": "18.2.20",
@@ -75,6 +75,6 @@
     ]
   },
   "dependencies": {
-    "next": "^13.4.6"
+    "next": "^13.5.4"
   }
 }
