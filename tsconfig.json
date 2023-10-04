@@ -5,9 +5,11 @@
     "node_modules"
   ],
   "compilerOptions": {
+    "target": "es5",
     "module": "esnext",
     "types": ["node", "jest", "mocha"],
-    "lib": ["dom", "esnext"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
@@ -19,9 +21,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "moduleResolution": "node",
-    "jsx": "react",
+    "jsx": "preserve",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "noEmit": true,
   }
 }

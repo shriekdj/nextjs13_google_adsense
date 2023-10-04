@@ -7,9 +7,9 @@ const GoogleAdUnit = ({ children }) => {
   const searchParams = useSearchParams();
   React.useEffect(() => {
     try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch(err) {
-        console.error(err)
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.error(err);
     }
   }, [pathname, searchParams]);
   return <React.Fragment>{children}</React.Fragment>;
