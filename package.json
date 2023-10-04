@@ -1,6 +1,6 @@
 {
   "name": "nextjs13_google_adsense",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Google Adsense package for working into the nextjs 13 and above.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
