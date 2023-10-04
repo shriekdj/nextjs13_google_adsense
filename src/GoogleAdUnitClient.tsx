@@ -2,7 +2,7 @@
 import React from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-type GoogleAdUnitProps = {
+export type GoogleAdUnitProps = {
   children: React.ReactNode;
 };
 
@@ -12,7 +12,7 @@ declare global {
   }
 }
 
-const GoogleAdUnit: React.FC<GoogleAdUnitProps> = ({ children }) => {
+const GoogleAdUnitClient: React.FC<GoogleAdUnitProps> = ({ children }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   React.useEffect(() => {
@@ -25,4 +25,4 @@ const GoogleAdUnit: React.FC<GoogleAdUnitProps> = ({ children }) => {
   return <React.Fragment>{children}</React.Fragment>;
 };
 
-export default GoogleAdUnit;
+export default GoogleAdUnitClient;
